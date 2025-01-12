@@ -1,4 +1,5 @@
 ﻿using Assignment.FirstProject;
+using Assignment.SecondProject;
 
 namespace Assignment
 {
@@ -76,6 +77,17 @@ namespace Assignment
             #endregion
 
             #endregion
+            #region Second Project
+            //int add=Maths.Add(1, 2);
+            //Console.WriteLine($"Add:{add}");
+            //int sub=Maths.Subtract(1, 2);
+            //Console.WriteLine($"Sub:{sub}");
+            //int Mul=Maths.Multiple(1, 2);
+            //Console.WriteLine($"Mul:{Mul}");
+            //int Div=Maths.divide(2,1);
+            //Console.WriteLine($"Div:{Div}");
+            #endregion
+
         }
     }
 }
