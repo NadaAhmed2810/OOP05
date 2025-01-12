@@ -1,4 +1,5 @@
 ﻿using OOP05.Abstraction;
+using OOP05.Static;
 
 namespace OOP05
 {
@@ -35,6 +36,18 @@ namespace OOP05
             //Console.WriteLine(circle.perimeter);
 
 
+
+            #endregion
+            #region Static Class 
+            //Utility u01=new Utility(1,2);
+            //Utility u02 = new Utility(2, 5);
+           
+            //Console.WriteLine(Utility.CmToInch(254));
+            //Console.WriteLine(Utility.CmToInch(254));
+            //the result not depend on Data of object so its must be static
+            //Console.WriteLine(u01.CalcCircleArea(Redius: 10));
+            //Console.WriteLine(u01.CalcCircleArea(Redius: 10));
+           // Console.WriteLine(Utility.CalcCircleArea(Redius: 10));
 
             #endregion
         }
