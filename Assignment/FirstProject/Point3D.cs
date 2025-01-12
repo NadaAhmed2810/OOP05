@@ -37,6 +37,15 @@ namespace Assignment.FirstProject
         {
             return $"Point Coordinates: ({X},{Y},{Z})";
         }
+
+        public static bool  operator == (Point3D left, Point3D right)
+        {
+            return (left.X==right.X)&&(left.Y==right.Y)&&(left.Z==right.Z);
+        }
+        public static  bool operator !=(Point3D left, Point3D right)
+        {
+            return !(left == right);
+        }
         #endregion
 
 

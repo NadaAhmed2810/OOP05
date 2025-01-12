@@ -12,31 +12,45 @@ namespace Assignment
             //Console.WriteLine(P.ToString());
             #endregion
             #region Q3: Read from the User the Coordinates for 2 points P1, P2 (Check the input using try Pares, Parse, Convert).
-            double x=0, y=0, z=0;
-            bool f = false;
+            //double x=0, y=0, z=0;
+            //bool f = false;
 
-            Console.WriteLine($"Enter coordinates for (X, Y, Z):");
-            do
-            {
-                Console.Write("X: ");
-                f = double.TryParse(Console.ReadLine(), out x);
-            } while (!f);
-            f = false;
-            do
-            {
-                Console.Write("Y: ");
-                f = double.TryParse(Console.ReadLine(), out y);
-            } while (!f);
+            //Console.WriteLine($"Enter coordinates for (X, Y, Z):");
+            //do
+            //{
+            //    Console.Write("X: ");
+            //    f = double.TryParse(Console.ReadLine(), out x);
+            //} while (!f);
+            //f = false;
+            //do
+            //{
+            //    Console.Write("Y: ");
+            //    f = double.TryParse(Console.ReadLine(), out y);
+            //} while (!f);
 
-            f = false;
-            do
-            {
-                Console.Write("Z: ");
-                f = double.TryParse(Console.ReadLine(), out z);
-            } while (!f);
-            Point3D point3D= new Point3D(x, y, z);
-            Console.WriteLine(point3D.ToString());
+            //f = false;
+            //do
+            //{
+            //    Console.Write("Z: ");
+            //    f = double.TryParse(Console.ReadLine(), out z);
+            //} while (!f);
+            //Point3D point3D= new Point3D(x, y, z);
+            //Console.WriteLine(point3D.ToString());
             #endregion
+            #region Q4:(P1==P2)
+            //not work i need to override on == in class Point 3D
+            //Point3D P1=new Point3D(1,1,1);
+            //Point3D P2=new Point3D(2,1,1);
+            //if (P1 == P2)
+            //{
+            //    Console.WriteLine("Points are Equal");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Points not are Equal");
+            //}
+            #endregion
+
 
             #endregion
         }
