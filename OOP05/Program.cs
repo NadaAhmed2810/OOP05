@@ -1,5 +1,6 @@
 ﻿using OOP05._ٍSealed;
 using OOP05.Abstraction;
+using OOP05.Partial;
 using OOP05.Static;
 
 namespace OOP05
@@ -59,7 +60,10 @@ namespace OOP05
             //ImuttableString imuttableString = new ImuttableString("Nada");
             //imuttableString=new ImuttableString("Nour");
             //Console.WriteLine(imuttableString.Value);
-            #endregion 
+            #endregion
+            #region Partial [Class,instruct,interface  ,Method ,property]
+            //Employee employee = new Employee() {Id=10,Name="Nada",Address="nl",Age=20 };
+            #endregion
 
         }
     }
