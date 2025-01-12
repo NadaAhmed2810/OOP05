@@ -4,10 +4,11 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Assignment.FirstProject
 {
-    internal class Point3D:IComparable<Point3D>
+    internal class Point3D:IComparable<Point3D>,ICloneable
     {
         #region Property
         public double X { get; set; }
@@ -45,6 +46,16 @@ namespace Assignment.FirstProject
             x += (this.Y.CompareTo(other?.Y));
             return x;
 
+        }
+
+        public object Clone()
+        {
+            return new Point3D()
+            {
+               X=X,
+               Y=Y,
+               Z=Z
+            };
         }
 
         public static bool  operator == (Point3D left, Point3D right)

@@ -65,6 +65,15 @@ namespace Assignment
             //}
 
             #endregion
+            #region Q6:Implement ICloneable interface to be able to clone the object.
+            //Point3D P1 = new Point3D(1, 2, 3);
+            //Point3D P2 = new Point3D(1, 1, 6);
+            ////remember Clone return object
+            //P1=(Point3D)P2.Clone();
+            //Console.WriteLine(P1.ToString());
+
+
+            #endregion
 
             #endregion
         }
