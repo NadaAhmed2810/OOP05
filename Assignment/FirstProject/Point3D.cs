@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Assignment.FirstProject
 {
-    internal class Point3D
+    internal class Point3D:IComparable<Point3D>
     {
         #region Property
         public double X { get; set; }
@@ -36,6 +36,15 @@ namespace Assignment.FirstProject
         public override string ToString()
         {
             return $"Point Coordinates: ({X},{Y},{Z})";
+        }
+
+        public int CompareTo(Point3D? other)
+        {
+            int x = 0;
+            x += this.X.CompareTo(other?.X);
+            x += (this.Y.CompareTo(other?.Y));
+            return x;
+
         }
 
         public static bool  operator == (Point3D left, Point3D right)
