@@ -1,5 +1,6 @@
 ﻿using Assignment.FirstProject;
 using Assignment.SecondProject;
+using Assignment.ThirdProject;
 
 namespace Assignment
 {
@@ -87,7 +88,64 @@ namespace Assignment
             //int Div=Maths.divide(2,1);
             //Console.WriteLine($"Div:{Div}");
             #endregion
+            #region Third Project
+            //Console.WriteLine("Enter your user type (Regular, Premium, Guest):");
+            //string userType = Console.ReadLine();
 
+            //User user;
+
+            //switch (userType.ToLower())
+            //{
+            //    case "regular":
+            //        Console.WriteLine("Enter your name:");
+            //        string regularName = Console.ReadLine();
+            //        user = new RegularUser(regularName);
+            //        break;
+
+            //    case "premium":
+            //        Console.WriteLine("Enter your name:");
+            //        string premiumName = Console.ReadLine();
+            //        user = new PremiumUser(premiumName);
+            //        break;
+
+            //    case "guest":
+            //        Console.WriteLine("Enter your name:");
+            //        string guestName = Console.ReadLine();
+            //        user = new GuestUser(guestName);
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("Invalid user type. Defaulting to Guest.");
+            //        user = new GuestUser("Guest");
+            //        break;
+            //}
+            //bool f = false;
+            //decimal price;
+            //do
+            //{
+            //    Console.WriteLine("Enter product price:");
+            //    f = decimal.TryParse(Console.ReadLine(), out price);
+            //} while (!f);
+            //f = false;
+            //int quantity;
+            //do
+            //{
+            //    Console.WriteLine("Enter product quantity:");
+            //    f = int.TryParse(Console.ReadLine(), out quantity);
+            //} while (!f);
+
+            //Discount? discount = user.GetDiscount();
+
+            //double discountAmount = discount?.CalculateDiscount(price, quantity) ?? 0;
+            //decimal finalPrice = (price * quantity) - (decimal)discountAmount;
+
+            //Console.WriteLine($"User: {user.Name}");
+            //Console.WriteLine($"Discount Type: {discount?.Name ?? "No Discount"}");
+            //Console.WriteLine($"Total Discount: {discountAmount:C}");
+            //Console.WriteLine($"Final Price: {finalPrice:C}");
+
+            #endregion
         }
     }
 }
+
